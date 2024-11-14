@@ -2,7 +2,7 @@ import Head from 'next/head'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
-import HeroImage from '/images/hero-image.svg'
+import HeroImage from '../../public/images/hero-image.svg'
 
 const Main = ({ children, router }) => {
   return (
